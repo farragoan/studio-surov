@@ -73,11 +73,6 @@ export default function Home() {
           </ul>
         </div>
       </div>
-
-      <footer className="home-footer">
-        <div className="footer-left">IN RED</div>
-        <div className="footer-right">IN LIGHT</div>
-      </footer>
     </article>
   )
 }
