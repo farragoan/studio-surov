@@ -18,12 +18,12 @@ export default function Services() {
 
         <div className="line">
           <span className="italic-serif underline">Spaces in Harmony</span>
-          <span className="serif">Furniture Design</span>
+          <span className="serif">Interior Design</span>
+          <span className="bold-sans">Furniture</span>
         </div>
 
         <div className="line">
           <span className="bold-sans">Lifestyle Trends</span>
-          <span className="amp">&</span>
           <span className="serif">Utility & Simplicity</span>
         </div>
       </div>

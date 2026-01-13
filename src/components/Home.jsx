@@ -46,23 +46,23 @@ export default function Home() {
       <div className="img-container img-main">
         <img
           src="https://zhenyary.com/images/home/zhenya-bg.jpg"
-          alt="Surabhi Iyer"
+          alt="Studio Surov"
         />
       </div>
 
       <h1>
         <span className="label">Studio Surov</span>
         <div className="name-display">
-          <span>SURABHI</span>
+          <span>STUDIO</span>
           <br />
-          <span className="italic">IYER</span>
+          <span className="italic">SUROV</span>
         </div>
       </h1>
 
       <div className="img-container img-front">
         <img
           src="https://zhenyary.com/images/home/zhenya-front.png"
-          alt="Surabhi Iyer"
+          alt="Studio Surov"
         />
       </div>
 
@@ -87,10 +87,7 @@ export default function Home() {
       </div>
 
       <footer className="home-footer">
-        <div className="socials">
-          <a href="https://www.linkedin.com/in/surabhi-iyer-791b3389/" target="_blank" rel="noopener">LinkedIn</a>
-          <a href="https://flowlyf.com" target="_blank" rel="noopener">Flowlyf</a>
-        </div>
+        {/* Social links removed as requested */}
       </footer>
     </article>
   )
