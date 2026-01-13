@@ -15,7 +15,7 @@ export default function Works() {
       name: 'DNA',
       type: 'WEBSITE, INTERACTION',
       role: 'DESIGN, ANIMATION',
-      image: 'https://zhenyary.com/images/dna-p-p/dna-p-p-home-1.jpg',
+      image: 'https://images.unsplash.com/photo-1618221195710-dd6b41faaea6?q=80&w=2000&auto=format&fit=crop',
       letter: 'D'
     },
     {
@@ -23,7 +23,7 @@ export default function Works() {
       name: 'Moxie',
       type: 'BRANDING, WEBSITE',
       role: 'ART DIRECTION, DESIGN',
-      image: 'https://zhenyary.com/images/moxie/moxie-home-1.jpg',
+      image: 'https://images.unsplash.com/photo-1616489953149-8d9e29416bbd?q=80&w=2000&auto=format&fit=crop',
       letter: 'M'
     },
     {
@@ -31,7 +31,7 @@ export default function Works() {
       name: 'Rafal Bojar',
       type: 'EDITORIAL, DIGITAL',
       role: 'DESIGN, ART DIRECTION',
-      image: 'https://zhenyary.com/images/rafal-bojar/rafal-bojar-home-1.jpg',
+      image: 'https://images.unsplash.com/photo-1615873966503-4770bb1236c5?q=80&w=2000&auto=format&fit=crop',
       letter: 'R'
     }
   ]

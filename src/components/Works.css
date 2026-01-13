@@ -56,7 +56,7 @@
   font-size: 35vw;
   font-weight: 700;
   color: var(--text-color);
-  opacity: 0.03;
+  opacity: 0.015;
   line-height: 1;
   pointer-events: none;
   z-index: 1;
