@@ -1,0 +1,90 @@
+.navbar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100vh;
+  z-index: 10;
+  pointer-events: none;
+}
+
+.navbar .container {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  display: block;
+  padding: 0;
+}
+
+.nav-link {
+  color: var(--text-color);
+  display: block;
+  font-size: 2.2vw;
+  line-height: 1;
+  text-decoration: none;
+  transition: color 0.5s cubic-bezier(0.455, 0.03, 0.515, 0.955);
+  white-space: nowrap;
+  pointer-events: auto;
+  position: absolute;
+}
+
+.nav-link:nth-child(1) {
+  top: 4vh;
+  left: 4vw;
+}
+
+/* Info */
+.nav-link:nth-child(2) {
+  top: 4vh;
+  right: 4vw;
+  text-align: right;
+}
+
+/* Work */
+.nav-link:nth-child(3) {
+  bottom: 4vh;
+  left: 4vw;
+}
+
+/* Workflow */
+.nav-link:nth-child(4) {
+  bottom: 4vh;
+  right: 4vw;
+  text-align: right;
+}
+
+/* Contact */
+
+.nav-link:hover {
+  color: var(--accent-color);
+}
+
+.nav-link:hover .label {
+  letter-spacing: 0.07vw;
+}
+
+.nav-link .title {
+  display: block;
+  font-family: var(--font-serif);
+  font-weight: 600;
+}
+
+.nav-link .label {
+  display: block;
+  font-family: var(--font-sans);
+  font-size: 10px;
+  font-weight: 400;
+  padding-top: 1.5em;
+  text-transform: uppercase;
+  transition: transform 0.4s cubic-bezier(0.25, 0.46, 0.45, 0.94) 0.2s, opacity 0.4s cubic-bezier(0.25, 0.46, 0.45, 0.94) 0.2s;
+}
+
+@media (max-width: 1050px) {
+  .nav-link {
+    font-size: 20px;
+  }
+
+  .nav-link .label {
+    display: none;
+  }
+}
