@@ -5,27 +5,39 @@ export default function Works() {
     {
       id: 'cure',
       name: 'Cure',
-      fullName: 'Cure Boutique',
-      type: 'Boutique promo website',
-      img: 'https://zhenyary.com/images/cure/cure-home-1.jpg',
-      letter: 'C',
-      roles: ['Art Direction', 'Branding', 'Interface Design'],
-      desc: 'Unique nail and wax boutique that curated a build-your-own style menu.'
+      type: 'DIGITAL PRODUCTION, E-COMMERCE',
+      role: 'ART DIRECTION, DESIGN',
+      image: 'https://zhenyary.com/images/work/cure/cure-cover.jpg',
+      letter: 'C'
     },
     {
-      id: 'rafal',
-      name: 'Rafal Bojar',
-      fullName: 'Rafal Bojar Portfolio',
-      type: 'Portfolio website',
-      img: 'https://zhenyary.com/images/rafal-bojar/rafal-bojar-home-1.jpg',
-      letter: 'R',
-      roles: ['Art direction', 'Interface design', 'Interaction design'],
-      desc: 'Folio of a polish photographer and videographer, who loves to create visual stories.'
+      id: 'dna',
+      name: 'DNA',
+      type: 'WEBSITE, INTERACTION',
+      role: 'DESIGN, ANIMATION',
+      image: 'https://zhenyary.com/images/work/dna/dna-cover.jpg',
+      letter: 'D'
+    },
+    {
+      id: 'moxie',
+      name: 'Moxie',
+      type: 'BRANDING, WEBSITE',
+      role: 'ART DIRECTION, DESIGN',
+      image: 'https://zhenyary.com/images/work/moxie/moxie-cover.jpg',
+      letter: 'M'
+    },
+    {
+      id: 'the-year',
+      name: 'The Year',
+      type: 'EDITORIAL, DIGITAL',
+      role: 'DESIGN, ART DIRECTION',
+      image: 'https://zhenyary.com/images/work/the-year/the-year-cover.jpg',
+      letter: 'T'
     }
   ]
 
   return (
-    <article className="works-section">
+    <article className="works-section" id="work">
       <header className="works-header">
         <span className="section-label">SELECTED WORKS</span>
       </header>
@@ -34,45 +46,29 @@ export default function Works() {
         {projects.map((project, index) => (
           <article key={project.id} className={`project-item ${index % 2 === 0 ? 'even' : 'odd'}`}>
             <div className="project-media">
-              <div className="image-wrapper">
-                <img src={project.img} alt={project.name} />
-              </div>
-              <div className="project-title-overlay">
-                <h3 className="project-name">{project.name}</h3>
-                <p className="project-type">{project.type}</p>
-              </div>
+              <span className="project-letter-bg">{project.letter}</span>
+              <img src={project.image} alt={project.name} />
             </div>
 
             <div className="project-info">
-              <div className="project-details">
-                <h2 className="project-full-name">{project.fullName}</h2>
-                <ul className="project-roles">
-                  {project.roles.map((role, i) => (
-                    <li key={i}>{role}{i < project.roles.length - 1 ? ' / ' : ''}</li>
-                  ))}
-                </ul>
-                <p className="project-desc">{project.desc}</p>
-                <a href={`/work/${project.id}`} className="case-link">Check full case +</a>
+              <span className="project-type">{project.type}</span>
+              <h3 className="project-name">{project.name}</h3>
+              <span className="project-role">{project.role}</span>
+              <div className="project-link">
+                <a href={`/work/${project.id}`}>EXPLORE CASE</a>
               </div>
-            </div>
-
-            <div className="project-letter">
-              <span>{project.letter}</span>
             </div>
           </article>
         ))}
       </div>
 
-      <div className="all-cases-footer">
-        <a href="/work" className="huge-link">
-          <span>All cases</span>
-          <span className="outline">here</span>
+      <footer className="works-footer">
+        <a href="/work" className="all-cases">
+          <span>All cases </span>
+          <span className="italic">here</span>
         </a>
-      </div>
-
-      <footer className="thanks-footer">
-        <p>
-          Special thanks to <a href="https://www.romainavalle.dev" target="_blank" rel="noopener">Romain Avalle</a> for development.
+        <p className="thanks">
+          SPECIAL THANKS TO ALL TEAMS AND TALENTED INDIVIDUALS I'VE WORKED WITH.
         </p>
       </footer>
     </article>
