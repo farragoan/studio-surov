@@ -45,24 +45,25 @@ export default function Home() {
     <article className="home" ref={component}>
       <div className="img-container img-main">
         <img
-          src="https://zhenyary.com/images/home/zhenya-bg.jpg"
-          alt="Zhenya Rynzhuk"
+          src="https://media.licdn.com/dms/image/v2/C4E03AQE_E0r_uF_-Yg/profile-displayphoto-shrink_800_800/profile-displayphoto-shrink_800_800/0/1559815042211?e=1741824000&v=beta&t=M8X3Z3Z3Z3Z3Z3Z3Z3Z3Z3Z3Z3Z3Z3Z3Z3Z3Z3Z3Z3Z"
+          alt="Surabhi Iyer"
         />
       </div>
 
       <h1>
-        <span className="label">Zhenya Rynzhuk</span>
+        <span className="label">Studio Surov</span>
         <div className="name-display">
-          <span>ZHENYA</span>
+          <span>SURABHI</span>
           <br />
-          <span className="italic">RYNZHUK</span>
+          <span className="italic">IYER</span>
         </div>
       </h1>
 
       <div className="img-container img-front">
         <img
-          src="https://zhenyary.com/images/home/zhenya-front.png"
-          alt="Zhenya Rynzhuk"
+          src="https://media.licdn.com/dms/image/v2/C4E03AQE_E0r_uF_-Yg/profile-displayphoto-shrink_800_800/profile-displayphoto-shrink_800_800/0/1559815042211?e=1741824000&v=beta&t=M8X3Z3Z3Z3Z3Z3Z3Z3Z3Z3Z3Z3Z3Z3Z3Z3Z3Z3Z3Z3Z"
+          alt="Surabhi Iyer"
+          className="rounded-profile"
         />
       </div>
 
@@ -71,7 +72,7 @@ export default function Home() {
           <path id="circlePath" d="M 50, 50 m -37, 0 a 37,37 0 1,1 74,0 a 37,37 0 1,1 -74,0" fill="transparent" />
           <text>
             <textPath xlinkHref="#circlePath">
-              PLAY SHOWREEL • PLAY SHOWREEL •
+              SPACES IN HARMONY • SPACES IN HARMONY •
             </textPath>
           </text>
         </svg>
@@ -79,24 +80,17 @@ export default function Home() {
       </button>
 
       <div className="click-interaction">
-        <button className="star-trigger">
-          <svg viewBox="0 0 48 48" className="star">
-            <path d="M20.078 14.026L24.157 0l5.02 14.026 12.548-7.013-6.588 13.247L48 24.312l-12.863 4.675 6.588 12.78-13.803-7.481L24.157 48l-4.079-13.714-13.176 7.48 5.96-12.779L0 24l12.863-3.74-5.02-13.247 12.235 7.013z" />
-          </svg>
-          <span className="tooltip">Click click</span>
-        </button>
         <ul className="services-list">
-          <li>Art direction</li>
-          <li>Digital production</li>
-          <li>Branding</li>
+          <li>Product Design</li>
+          <li>Interior Spaces</li>
+          <li>Lifestyle solutions</li>
         </ul>
       </div>
 
       <footer className="home-footer">
         <div className="socials">
-          <a href="https://dribbble.com/zhenyary" target="_blank" rel="noopener">Dribbble</a>
-          <a href="https://www.behance.net/Zhenyary" target="_blank" rel="noopener">Behance</a>
-          <a href="https://twitter.com/zhenyary" target="_blank" rel="noopener">Twitter</a>
+          <a href="https://www.linkedin.com/in/surabhi-iyer-791b3389/" target="_blank" rel="noopener">LinkedIn</a>
+          <a href="https://flowlyf.com" target="_blank" rel="noopener">Flowlyf</a>
         </div>
       </footer>
     </article>

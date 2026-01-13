@@ -9,8 +9,8 @@ export default function Contact() {
           <span className="italic-serif thinner">something </span>
           <span className="serif">great!</span>
           <br />
-          <a href="mailto:hey@zhenyary.com" className="email-link">
-            hey@zhenyary.com
+          <a href="mailto:hey@studiosurov.com" className="email-link">
+            hey@studiosurov.com
           </a>
           <span className="arrow"> → </span>
           <span className="italic-serif thinner">for</span>
