@@ -2,7 +2,7 @@ import './Services.css'
 
 export default function Services() {
   return (
-    <article className="services-section">
+    <article className="services-section" id="workflow">
       <header className="services-header">
         <span className="section-label">MY MAIN SERVICES</span>
       </header>

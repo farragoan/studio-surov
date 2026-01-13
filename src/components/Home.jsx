@@ -42,7 +42,7 @@ export default function Home() {
   }, [])
 
   return (
-    <article className="home" ref={component}>
+    <article className="home" id="home" ref={component}>
       <div className="img-container img-main">
         <img
           src="https://zhenyary.com/images/home/zhenya-bg.jpg"
@@ -50,44 +50,33 @@ export default function Home() {
         />
       </div>
 
-      <h1>
-        <span className="label">Studio Surov</span>
-        <div className="name-display">
-          <span>STUDIO</span>
-          <br />
-          <span className="italic">SUROV</span>
+      <div className="hero-content">
+        <span className="brand-label">STUDIO SUROV</span>
+        <div className="split-title">
+          <span className="title-left">STUDIO</span>
+          <span className="title-right">SUROV</span>
         </div>
-      </h1>
-
-      <div className="img-container img-front">
-        <img
-          src="https://zhenyary.com/images/home/zhenya-front.png"
-          alt="Studio Surov"
-        />
       </div>
 
-      <button className="play-button">
-        <svg viewBox="0 0 100 100" className="circle-text">
-          <path id="circlePath" d="M 50, 50 m -37, 0 a 37,37 0 1,1 74,0 a 37,37 0 1,1 -74,0" fill="transparent" />
-          <text>
-            <textPath xlinkHref="#circlePath">
-              SPACES IN HARMONY • SPACES IN HARMONY •
-            </textPath>
-          </text>
-        </svg>
-        <div className="play-icon"></div>
-      </button>
-
-      <div className="click-interaction">
-        <ul className="services-list">
-          <li>Product Design</li>
-          <li>Interior Spaces</li>
-          <li>Lifestyle solutions</li>
-        </ul>
+      <div className="hero-skills">
+        <div className="skill-trigger">
+          <div className="star-icon">
+            <svg viewBox="0 0 48 48">
+              <path d="M20.078 14.026L24.157 0l5.02 14.026 12.548-7.013-6.588 13.247L48 24.312l-12.863 4.675 6.588 12.78-13.803-7.481L24.157 48l-4.079-13.714-13.176 7.48 5.96-12.779L0 24l12.863-3.74-5.02-13.247 12.235 7.013z" />
+            </svg>
+            <span className="click-label">CLICK CLICK</span>
+          </div>
+          <ul className="skills-list">
+            <li>Product Design</li>
+            <li>Interior Spaces</li>
+            <li>Branding</li>
+          </ul>
+        </div>
       </div>
 
       <footer className="home-footer">
-        {/* Social links removed as requested */}
+        <div className="footer-left">IN RED</div>
+        <div className="footer-right">IN LIGHT</div>
       </footer>
     </article>
   )

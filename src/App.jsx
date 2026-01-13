@@ -2,6 +2,7 @@ import { useState, useLayoutEffect } from 'react'
 import Preloader from './components/Preloader'
 import Navbar from './components/Navbar'
 import Home from './components/Home'
+import Info from './components/Info'
 import Services from './components/Services'
 import Works from './components/Works'
 import Contact from './components/Contact'
@@ -30,6 +31,7 @@ function App() {
       <main className="main">
         <section className="page">
           <Home />
+          <Info />
           <Services />
           <Works />
           <Contact />

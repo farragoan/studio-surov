@@ -2,7 +2,7 @@ import './Contact.css'
 
 export default function Contact() {
   return (
-    <article className="contact-section">
+    <article className="contact-section" id="contact">
       <div className="contact-container">
         <h2 className="contact-heading">
           <span className="serif">Let's make </span>
