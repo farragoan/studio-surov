@@ -45,7 +45,7 @@ export default function Home() {
     <article className="home" ref={component}>
       <div className="img-container img-main">
         <img
-          src="https://media.licdn.com/dms/image/v2/C4E03AQE_E0r_uF_-Yg/profile-displayphoto-shrink_800_800/profile-displayphoto-shrink_800_800/0/1559815042211?e=1741824000&v=beta&t=M8X3Z3Z3Z3Z3Z3Z3Z3Z3Z3Z3Z3Z3Z3Z3Z3Z3Z3Z3Z3Z"
+          src="https://zhenyary.com/images/home/zhenya-bg.jpg"
           alt="Surabhi Iyer"
         />
       </div>
@@ -61,9 +61,8 @@ export default function Home() {
 
       <div className="img-container img-front">
         <img
-          src="https://media.licdn.com/dms/image/v2/C4E03AQE_E0r_uF_-Yg/profile-displayphoto-shrink_800_800/profile-displayphoto-shrink_800_800/0/1559815042211?e=1741824000&v=beta&t=M8X3Z3Z3Z3Z3Z3Z3Z3Z3Z3Z3Z3Z3Z3Z3Z3Z3Z3Z3Z3Z"
+          src="https://zhenyary.com/images/home/zhenya-front.png"
           alt="Surabhi Iyer"
-          className="rounded-profile"
         />
       </div>
 

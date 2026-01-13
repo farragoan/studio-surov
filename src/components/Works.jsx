@@ -7,7 +7,7 @@ export default function Works() {
       name: 'Cure',
       type: 'DIGITAL PRODUCTION, E-COMMERCE',
       role: 'ART DIRECTION, DESIGN',
-      image: 'https://zhenyary.com/images/work/cure/cure-cover.jpg',
+      image: 'https://zhenyary.com/images/cure/cure-home-1.jpg',
       letter: 'C'
     },
     {
@@ -15,7 +15,7 @@ export default function Works() {
       name: 'DNA',
       type: 'WEBSITE, INTERACTION',
       role: 'DESIGN, ANIMATION',
-      image: 'https://zhenyary.com/images/work/dna/dna-cover.jpg',
+      image: 'https://zhenyary.com/images/dna-p-p/dna-p-p-home-1.jpg',
       letter: 'D'
     },
     {
@@ -23,16 +23,16 @@ export default function Works() {
       name: 'Moxie',
       type: 'BRANDING, WEBSITE',
       role: 'ART DIRECTION, DESIGN',
-      image: 'https://zhenyary.com/images/work/moxie/moxie-cover.jpg',
+      image: 'https://zhenyary.com/images/moxie/moxie-home-1.jpg',
       letter: 'M'
     },
     {
-      id: 'the-year',
-      name: 'The Year',
+      id: 'rafal',
+      name: 'Rafal Bojar',
       type: 'EDITORIAL, DIGITAL',
       role: 'DESIGN, ART DIRECTION',
-      image: 'https://zhenyary.com/images/work/the-year/the-year-cover.jpg',
-      letter: 'T'
+      image: 'https://zhenyary.com/images/rafal-bojar/rafal-bojar-home-1.jpg',
+      letter: 'R'
     }
   ]
 
